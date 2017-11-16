@@ -1,0 +1,78 @@
+body {
+    background-color: grey;
+    margin: 0 auto;
+}
+
+header {
+    display: inline-block;
+    padding-left: 80%;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    align-items: center;
+    background-color: crimson;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+  
+}
+
+.portfolio_screen {
+    background-color: bisque;    
+}
+
+.portfolio_screen h1 {
+    font-size: 70px;
+    font-family: monospace;
+    text-align: center;
+    border-bottom: 2px solid crimson;
+    padding-bottom: 10px;
+    margin: 0 30% 40px;
+    text-decoration: blink;
+    padding-top: 100px;
+}
+.portfolio_screen .buttons {
+    text-align: center;
+}
+
+.button {
+    margin-bottom: 100px;
+    font-size: 20px;
+    color: brown;
+    padding: 20px;
+    width: 230px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: black;
+}
+.button:hover {
+    font-size: 22px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    width: 230px;
+    margin-bottom: 100px;
+}
+
+
+
+.self-description_screen {
+    background-color: aqua;
+    height: 300px;
+}
+
+.portfolio-pages_screen {
+    background-color: crimson;
+    height: 300px;
+}
+
+.other-social-media_screen {
+    background-color: darkorange;
+    height: 300px;
+}
