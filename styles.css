@@ -1,25 +1,34 @@
 body {
     background: linear-gradient(to right, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 91%, rgba(209,209,209,1) 100%);
-    min-height: 1000px;
     color: slategray;
+    max-width: 963px;
+    margin: 0 auto;
+    
 }
 
 header {
     display: inline-block;
-    padding-left: 10%;
-    padding-bottom: 40px;
     padding-top: 30px;
-    align-items: center;
-    width: 100%;
+    padding-bottom: 90px;
+    
+    width: 70%;
     position: fixed;
     top: 0px;  
+    text-align: center;
 }
 
 header .links {
-    padding-right: 40px;
     text-decoration: none;
     color: #6d0019;
     font-weight: bold;
+    font-size: 24px; 
+}
+header div {
+    display: inline-block;
+}
+#portfolio_html {
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 
@@ -28,10 +37,13 @@ header .links {
     font-family: sans-serif;
     text-align: center;
     border-bottom: 2px solid #b68d4c;
-    padding-bottom: 10px;
-    margin: 0 30% 40px;
-    text-decoration: blink;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    margin-left: 90px;
+    margin-right: 90px;
     padding-top: 100px;
+    text-decoration: blink;
     background-image: linear-gradient(to right, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;  
