@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(to right, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 91%, rgba(209,209,209,1) 100%);
+    color: slategray;
+    max-width: 963px;
+    margin: 0 auto;
+}
+.header_div {
+    width: 963px;
+    display: inline-block;
+    margin: 30px auto;
+    text-align: center;
+    }
+.links {
+    text-decoration: none;
+    color: #6d0019;
+    font-weight: bold;
+    font-size: 24px;
+    }
+.links.portfolio {
+    margin-left: 90px;
+    margin-right: 90px;
+}

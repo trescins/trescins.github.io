@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <title>Portfolio K.T</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_contact.css">
 </head>
 <body>
+     <div class="header_div">
+          <a class="links"  href="index.html">About</a>
+          <a class="links portfolio" href="portfolio.html">Portfolio</a>
+          <a class="links"  href="contact.html">Contact</a>
+           </div>
+    <h2>Jeśli chcesz, możesz się ze mną skontaktować za pomocą poniższego formularza.</h2>
     
+    <form action="mail.php" name="contactform" method="post">
+        <div class="field mail">
+            <label for="mail">Twój adres e-mail</label>
+            <input type="email" name="email_adress" id="email_adress" />
+        </div>
+        <div class="field">
+            <label for="message">Treść wiadomości</label>
+            <textarea name="message" id="message" rows="4"></textarea>
+        </div>
+        
+    </form>
+   
 </body>
 </html>
