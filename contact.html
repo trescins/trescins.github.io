@@ -13,21 +13,20 @@
           <a class="links"  href="contact.html">Contact</a>
            </div>
     <h2>Jeśli chcesz, możesz się ze mną skontaktować za pomocą poniższego formularza.</h2>
-    
-    <form action="mail.php" name="contactform" method="post">
-        <div class="field mail">
-            <label for="mail">Twój adres e-mail</label>
-            <input type="email" name="email_adress" id="email_adress" />
-        </div>
-        <div class="field">
-            <label for="message">Treść wiadomości</label>
-            <textarea name="message" id="message" rows="4"></textarea>
-        </div>
-        <ul class="actions">
-            <li><input type="submit" name="submit" value="Wyślij" class="special"/></li>
-        </ul>
+    <div id="contact_form">
+        <form method="post" action="http://formspree.io/trescins@gmail.com">
+            <label>Twój adres e-mail</label>
+            <input name="email_adress" placeholder="kowalski@gmail.com">
+            
+            <label>Wiadomość</label>
+            <textarea name="message" placeholder="Twoja wiadomość"></textarea>
+            
+            <input id="submit" name="submit" type="submit" value="Wyślij">
+        </form>
+    </div>
+   
         
-    </form>
+    
    
 </body>
 </html>
