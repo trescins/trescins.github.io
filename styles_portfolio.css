@@ -23,15 +23,25 @@ body {
 }
 
 .icons {
-    display: inline-block;
+    display: inline;
+    text-align: center;
+    color: #6d0019;
 }
 
-.icons img {
-    width: 440px;
-    height: 100px;
+.hostel_link {
+    display: inline;
+    text-decoration: none;
+    font-size: 22px;
+    color: #6d0019;
+    font-weight: bold;
 }
+.hostel_link:visited {
+    color: #6d0019;
+}
+
 figcaption {
     text-align: center;
     color: #6d0019;
     font-weight: bold;
+    margin-bottom: 45px;
 }
