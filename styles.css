@@ -81,6 +81,12 @@ body {
     text-align: justify;
     text-justify: inter-word;
     font-size: 18px;
-
 }
+
+#cv_button {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
 

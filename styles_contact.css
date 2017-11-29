@@ -30,6 +30,7 @@ h2 {
 #contact_form {
     width: 560px;
     margin: 0 auto;
+    text-align: center;
 }
 
 #contact_form label {
@@ -49,6 +50,20 @@ h2 {
 #contact_form input#submit {
     width: 200px;
     cursor: pointer;
-    margin-left: 33%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#cv_button {
+    text-align: center;
+}
+
+#cv_button button{
+    width: 200px;
+    cursor: pointer;
     margin-bottom: 0px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
 }
