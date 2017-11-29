@@ -9,6 +9,7 @@ body {
     display: inline-block;
     margin: 30px auto;
     text-align: center;
+    padding-bottom: 50px;
     }
 .links {
     text-decoration: none;
@@ -19,4 +20,18 @@ body {
 .links.portfolio {
     margin-left: 90px;
     margin-right: 90px;
+}
+
+.icons {
+    display: inline-block;
+}
+
+.icons img {
+    width: 440px;
+    height: 100px;
+}
+figcaption {
+    text-align: center;
+    color: #6d0019;
+    font-weight: bold;
 }
