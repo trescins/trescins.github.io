@@ -485,6 +485,10 @@ h2 {
     width: 230px;
     margin-bottom: 100px;
 }
+    
+    #cv_button {
+        width: 220px;
+    }
 
 .self-description_screen {
     color: black;
@@ -539,6 +543,7 @@ figcaption {
     margin-bottom: 45px;
 }
 
+    
 
 
 
@@ -584,19 +589,7 @@ h2 {
     text-align: center;
 }
 
-#cv_button {
-margin: 0 auto;
-    }
 
-#cv_button button{
-    margin: 0 auto;
-    width: 220px;
-    cursor: pointer;
-    font-weight: bold;
-    border-radius: 5px;
-    border: 1px solid black;
-    padding: 5px;
-}
 }
 
 @media (min-width: 1600px) {
